@@ -24,7 +24,7 @@ module.exports = generators.Base.extend({
     }, {
       type: 'confirm',
       name: 'includeReact',
-      message: 'Would you like to include React.js?'
+      message: 'Would you like to include React.js?',
       default: true
     }
     ];
