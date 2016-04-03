@@ -1,0 +1,26 @@
+{
+  "name": "web-project-template",
+  "description": "Project template for web apps",
+  "main": "index.js",
+  "authors": [
+    "Alexander Zaytsev"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.2" <% if (includeNormalize) { %>,
+    "normalize.css": "~3.0.3" <% } %> <% if (includeReact) { %>
+    "react": "^0.14.8" <% } %>
+  }
+}
